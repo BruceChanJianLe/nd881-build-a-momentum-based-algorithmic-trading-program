@@ -1,0 +1,16 @@
+[project]
+name = "Udacity AI Trading Strategies - Project6"
+version = "0.1.0"
+description = "SP500 Options Pricing / Statistics Momentum-Based Algorithmic Trading Program"
+channels = ["conda-forge"]
+platforms = ["linux-64"]
+
+[dependencies]
+python = ">=3.11,<3.13"
+numpy = "*"
+scipy = "*"
+matplotlib = "*"
+jupyterlab = "*"
+
+[tasks]
+lab = { cmd = "jupyter lab --no-browser --port=7772", description = "Launch Jupyter Lab."}
